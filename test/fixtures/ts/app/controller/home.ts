@@ -5,6 +5,10 @@ declare module 'egg' {
   interface IController {
     home: HomeController;
   }
+
+  interface Context {
+    [key: string | symbol]: any;
+  }
 }
 
 export default class HomeController extends Controller {
