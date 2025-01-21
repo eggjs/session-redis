@@ -1,3 +1,19 @@
+# Changelog
+
+## [3.0.0](https://github.com/eggjs/session-redis/compare/v2.1.0...v3.0.0) (2025-01-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 18.19.0 support
+
+part of https://github.com/eggjs/egg/issues/3644
+
+https://github.com/eggjs/egg/issues/5257
+
+### Features
+
+* support cjs and esm both by tshy ([#8](https://github.com/eggjs/session-redis/issues/8)) ([eded033](https://github.com/eggjs/session-redis/commit/eded033b95e6330a55add352ce869b8a1a314a46))
 
 2.1.0 / 2018-09-10
 ==================
