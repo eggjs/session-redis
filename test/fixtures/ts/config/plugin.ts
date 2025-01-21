@@ -3,7 +3,7 @@ import { EggPlugin } from 'egg';
 const plugin: EggPlugin = {
   redis: {
     enable: true,
-    package: 'egg-redis',
+    package: '@eggjs/redis',
   }
 };
 
